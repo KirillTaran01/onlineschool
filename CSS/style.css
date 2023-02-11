@@ -1,0 +1,920 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+::selection{
+    color: rgb(29, 24, 179);
+    background-color: rgba(73, 66, 205, 0.225);
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.header-links__item{
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 10px;
+    color: #414141;
+}
+.header-links__item:hover{
+    color: rgb(141, 141, 141);
+    transition-duration: 243ms;
+}
+.header-links__item-login{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px 5px 5px 5px;
+    background: #82B66F;
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: 521;
+    width: 201px;
+    height: 52px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    margin-left: 30px;
+}
+.header-links__item-login:hover{
+    color: rgb(219, 219, 219);
+    background-color: #679158;
+    transition-duration: 243ms;
+}
+.header-links__logo{
+    color: #252B42;
+    text-decoration: none;
+    font-weight: bold;
+    animation: text 3s 1;
+}
+@keyframes text{
+    0%{
+        color: #ffffff;
+    }
+    30%{
+        letter-spacing: 6px;
+    }
+}
+.span-logo__color{
+    color: #82B66F;
+    animation: text 3s 1;
+}
+.section-title__heading{
+    font-size: 22px;
+    color: #82B66F;
+    margin-top: 120px;
+    font-weight: 600;
+}
+.section-titlestudent__heading{
+    font-size: 22px;
+    color: #82B66F;
+    margin-top: 120px;
+    font-weight: 600;
+}
+.section-title__text{
+    font-size: 67px;
+    font-weight: 600;
+}
+.section-title__wrapper{
+    max-width: 560px;
+}
+.section-image__img{
+    margin-top: -480px;
+    padding-left: 700px;
+}
+.section-title__info{
+    color: #2e2e2e;
+    font-size: 20px;
+    margin-top: 35px;
+    opacity: 75%;
+    max-width: 500px;
+}
+.imgigmg{
+    margin-left: 600px;
+    margin-top: -465px;
+    max-height: 500px;
+}
+.section-button__info{
+    border-radius: 5px 5px 5px 5px;
+    background: #82B66F;
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: 521;
+    width: 201px;
+    height: 52px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+.section-button__info:hover{
+    background-color: #6d995d;  
+    transition-duration: 1s;
+}
+.button-link{
+    text-decoration: none;
+    color: white;
+}
+.card-subtitle{
+    margin-top: 37px;
+    margin-left: 10px;
+    font-weight: 800;
+    font-size: 24px;
+}
+.card-img{
+    max-width: 67px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+.card-img__redline{
+    margin-left: 10px;
+}
+.card-text{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.section-card__wrapper{
+    display: flex;
+    gap: 130px;
+    margin-top: -10.1px
+}
+.first-card__style{
+    max-height: 326px;
+}
+.second-card__style{
+    max-height: 326px;
+}
+.third-card__style{
+    max-height: 326px;
+}
+.stats-wrapper{
+    display: flex;
+    margin-top: 100px;
+    margin-left: -200px;
+    justify-content: center;
+    gap: 270px;
+}
+.section-number__text{
+    font-weight: 700;
+    font-size: 40px;
+    color: #82B66F;
+}
+.text-wrapper{
+    display: flex;
+    gap: 224px;
+    margin-left: 53px;
+    font-weight: 700;
+    color: #252B42;
+}
+.info-wrapper{
+    margin-top: 248px;
+    max-width: 590px;
+}
+.section-title__information{
+    margin-top: 35px;
+    font-weight: 900;
+}
+.imgimgimg{
+    margin-left: 732px;
+    margin-top: -210px;
+}
+.footer-wrapper{
+    color: #737373;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 90px;
+}
+.footer-image{
+    max-width: 24px;
+    max-height: 24px;
+    display: flex;
+}
+.section-img__vk{
+    max-width: 34px;
+    margin-right: 10px;
+}
+.login-wrapper{
+    margin-top: 173px;
+    max-width: 530px;
+    margin-left: 360px;
+}
+.section-button{
+    border-radius: 7px;  
+    border-style: solid;
+    border-color: #494949;
+    color: #252B42;
+    font-weight: 600;
+    border-width: 2px;
+    letter-spacing: 0.6px;
+    width: 475px;
+    height: 49px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 155px;
+    padding-right: 195px;
+}
+.section-button:hover{
+    background-color: #e5e5e5;
+    transition-duration: 500ms;
+}
+.section-login__text{
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #252B42;
+}
+.section-text__button-invite{
+    border-radius: 7px;  
+    border-style: solid;
+    border-color: #494949;
+    color: #252B42;
+    font-weight: 600;
+    border-width: 2px;
+    letter-spacing: 0.6px;
+    width: 475px;
+    height: 49px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section-text__button-invite:hover{
+    background-color: #e5e5e5;
+    transition-duration: 500ms;
+}
+.section-text__button-invite-telephone{
+    border-radius: 7px;  
+    border-style: solid;
+    border-color: #494949;
+    color: #252B42;
+    font-weight: 600;
+    border-width: 2px;
+    letter-spacing: 0.6px;
+    width: 475px;
+    height: 49px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;   
+}
+.section-text__button-invite-telephone:hover{
+    background-color: #e5e5e5;
+    transition-duration: 500ms;
+}
+.section-title__info{
+    margin-top: 15px;
+    color: #252B42;
+    font-size: 19px;
+}
+.section-img__ok{
+    margin-top: 10px;
+    max-width: 60px;
+}
+.section-img__ok:hover{
+    opacity: 60%;
+    transition-duration: 120ms;
+}
+.section-img__mailru{
+    margin-top: 10px;
+    max-width: 60px;
+    margin-left: 20px;
+}
+.section-img__mailru:hover{
+    opacity: 60%;
+    transition-duration: 120ms;
+}
+.section-img__yandex{
+    margin-top: 10px;
+    max-width: 60px;
+    margin-left: 20px;
+}
+.section-img__yandex:hover{
+    opacity: 60%;
+    transition-duration: 120ms;
+}
+.logos-wrapper{
+    margin-left: 120px;
+}
+.section-title__text-opacity{
+    margin-top: 30px;
+    color: rgb(124, 124, 124);
+}
+.section-agressment__text{
+    margin-top: 20px;
+    color: #494949;
+}
+.section-info__text{
+    font-weight: 600;
+    font-size: 50px;
+}
+.card-title__text{
+    font-weight: 600;
+    font-size: 18px;
+}
+.card-info__text{
+    margin-top: -23px;
+    font-weight: 500;
+}
+.card-text{
+    margin-top: -2px;
+    margin-left: -0px;
+}
+.card-redline__img{
+    margin-top: -30px;
+}
+.card-vk__img{
+    max-height: 40px;
+    margin-left: 2px;
+}
+.card-vk__img:hover{
+    opacity: 80%;
+}
+.card-button{
+    border-radius: 7px;  
+    border-style: solid;
+    border-color: #494949;
+    color: #252B42;
+    font-weight: 600;
+    border-width: 2px;
+    letter-spacing: 0.6px;
+    width: 475px;
+    height: 49px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 25px;
+}
+.card-button:hover{
+    background-color: #e5e5e5;
+    transition-duration: 500ms;
+}
+.card-wrapper{
+    margin-top: 80px;
+    display: flex;
+    gap: 85px;
+}
+.review-wrapper{
+    margin-top: 70px;
+    max-width: 600px;
+}
+.contacts-wrapper{
+    margin-top: 200px;
+}
+.section-inform__text{
+    color: #6d995d;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 500px;
+}
+.section-titleinfo__text{
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 300px;
+}
+.info-first__wrapper{
+    display: flex;
+    gap: 150px;
+}
+.section-phone__text{
+    font-weight: 500;
+}
+.contact-wrapper{
+    border-radius: 5px 5px 5px 5px;
+    border-color: #252B42;
+    border-width: 4px;
+    background-color: #d6d6d6;
+    max-width: 1080px;
+}
+.contact-vk__img{
+    max-height: 40px;
+    margin-left: 40px;
+}
+.section-about__text{
+    font-size: 14px;
+}
+input[type="email"]{
+    width: 498px;
+    height: 45px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-color: #82B66F;
+    border-width: 2px;
+    border-style: solid;
+    padding-left: 27px;
+} 
+input[type="submit"]{
+    width: 190px;
+    height: 45px;
+    background-color: #82B66F;
+    border: none;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    color: white;
+    font-size: 16px;
+    margin-left: -5px;
+} 
+input[type="submit"]:hover{
+    background-color: #679158;
+    transition-duration: 300ms;
+}
+.email-wrapper{
+    margin-left: 298px;
+    margin-top: 100px;
+}
+.section-telephonecontact__wrapper{
+    background-color: #e7e7e757;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 400px;
+    border-color: #252B42;
+    border-style: solid;
+    max-height: 130px;
+    max-width: 280px;
+    border-width: 2px;
+    margin-left: 350px;
+}
+.section_telephonetitle_text{
+    font-size: 24px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+.section-telephonecontact__text{
+    color: #6d9b5d;
+    font-size: 17px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+.section-iconphone__img{
+    max-width: 250px;
+    padding-left: 200px;
+    padding-top: 5px;
+    margin-right: 13px;
+}
+.contacts-contactAdmins__wrapper{
+    margin-left: 510px;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+.section-contactAdminstitle__text{
+    font-size: 40px;
+    font-weight: 600;
+}
+.section-emailcontact__wrapper{
+    background-color: #e7e7e757;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 400px;
+    border-color: #252B42;
+    border-style: solid;
+    max-height: 130px;
+    max-width: 280px;
+    border-width: 2px;
+}
+.section-contact__text{
+    color: #6d995d;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: -20px;
+}
+.contacts-contactadmin_wrapper{
+    display: flex;
+    gap: 40px;
+}
+@media (max-width: 768px) {
+    .header-links{
+        margin-top: 30px;
+    }
+    .section-title__heading{
+        font-size: 18px;
+    }
+    .section-title__text{
+        font-size: 36px;
+    }
+    .section-title__info{
+        font-size: 18px;
+    }
+    .imgigmg{
+        opacity: 100%;
+        max-height: 300px;
+        margin-top: -300px;
+        margin-left: 400px;
+    }
+    .card-img{
+        max-width: 40px;
+        margin-top: 5px;
+        margin-left: 1px;
+    }
+    .card-subtitle{
+        font-size: 17px;
+        margin-left: 1px;
+    }
+    .card-text{
+        font-size: 14px;
+        margin-top: -10px;
+        margin-left: 1px;
+        max-width: 140px;
+    }
+    .section-card__wrapper{
+        gap: 20px;
+    }
+    .first-card__style{
+        max-height: 308px;
+        max-width: 200px;
+    }
+    .second-card__style{
+        max-height: 308px;
+        max-width: 200px;
+    }
+    .third-card__style{
+        max-height: 308px;
+        max-width: 200px;
+    }
+    .card-img__redline{
+        margin-left: 1px;
+    }
+    .stats-wrapper{
+        display: flex;
+        margin-top: 100px;
+        margin-left: -70px;
+        justify-content: center;
+        gap: 100px;
+    }
+    .section-number__text{
+        font-size: 27px;
+    }
+    .text-wrapper{
+        display: flex;
+        margin-left: -59px;
+        justify-content: center;
+        gap: 30px;
+        font-size: 14px;
+    }
+    .imgimgimg{
+        max-height: 280px;
+        margin-left: 380px;
+    }
+    .section-information__text{
+        max-width: 400px;
+    }
+    .section-title__information{
+        font-size: 26px;
+    }
+    .header-links__item{
+        font-size: 20px;
+        text-decoration: none;
+        padding-left: 20px;
+        color: rgb(124, 124, 124);
+    }
+    .section-card__wrapper{
+        margin-top: 100px;
+    }
+    .first-cardteacher__style{
+        max-width: 700px;
+        margin-left: 180px;
+    }
+    .second-cardteacher__style{
+        margin-top: 30px;
+        margin-left: 180px;
+    }
+    .third-cardteacher__style{
+        margin-top: 30px;
+        margin-left: 180px;
+    }
+    .card-text{
+        font-size: 15px;
+        max-width: 250px;
+    }
+    .card-button{
+        margin-left: 10px;
+    }
+    .card-wrapper{
+        margin-top: 80px;
+        display: block;
+    }
+    .login-wrapper{
+        margin-left: 80px;
+    }
+    .section-inform__text{
+        margin-left: 230px;
+    }
+    .section-titleinfo__text{
+        margin-left: 30px;
+        text-align: center;
+    }
+    input[type="email"]{
+        width: 298px;
+        height: 45px;
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+        border-color: #82B66F;
+        border-width: 2px;
+        border-style: solid;
+        padding-left: 27px;
+    }
+    .email-wrapper{
+        margin-left: 160px;
+    }
+    .section-contact__text{
+        margin-left: -270px;
+    }
+    .section-contactAdminstitle__text{
+        margin-left: -245px;
+    }
+    .section-telephonecontact__wrapper{
+        background-color: #e7e7e757;
+        border-radius: 10px 10px 10px 10px;
+        max-width: 400px;
+        border-color: #252B42;
+        border-style: solid;
+        max-height: 130px;
+        max-width: 280px;
+        border-width: 2px;
+        margin-left: 60px;
+    }
+    .card-text__width{
+        max-width: 150px;
+    }
+    @media (max-width: 576px){
+        .header-wrapper{
+            display: block;
+            justify-content: end;
+        }
+        .header-links__item{
+            font-size: 20px;
+            margin-left: 50px;
+        }
+        .header-links__item-login{
+            margin-left: 223px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+        .header-links__logo{
+            margin-left: 210px;
+        }
+        .section-title__text{
+            max-width: 280px;
+        }
+        .section-title__info{
+            max-width: 300px;
+        }
+        .imgigmg{
+            margin-left: 50px;
+        }
+        .section-card__wrapper{
+            display: block;
+            margin-left: 130px;
+        }
+        .first-card__style{
+            max-width: 400px;
+            max-height: 263px;
+        }
+        .second-card__style{
+            margin-top: 20px;
+            max-width: 400px;
+            max-height: 263px;
+        }
+        .third-card__style{
+            margin-top: 20px;
+            max-width: 400px;
+            max-height: 263px;
+        }
+        .card-img{
+            max-width: 60px;
+        }
+        .stats-wrapper{
+            margin-top: 100px;
+            margin-left: -0px;
+            justify-content: center;
+            gap: 60px;
+        }
+        .text-wrapper{
+            margin-left: -4px;
+            padding-left: 70px
+        }
+        .section-title__information{
+            max-width: 300px;
+        }
+        .section-information__text{
+            max-width: 300px;
+        }
+        .imgimgimg{
+            margin-left: 260px;
+        }
+        .card-wrapper{
+            margin-left: -80px;
+        }
+        .login-wrapper{
+            margin-left: 1px;
+        }
+        .section-button{
+            padding-right: 170px;
+        }
+        .section-text__button{
+            margin-left: 0px;
+        }
+        .section-inform__text{
+            margin-left: 150px;
+        }
+        .section-titleinfo__text{
+            margin-left: 5px;
+        }
+        input[type="email"]{
+            width: 230px;
+            height: 45px;
+            border-top-left-radius: 16px;
+            border-bottom-left-radius: 16px;
+            border-color: #82B66F;
+            border-width: 2px;
+            border-style: solid;
+            padding-left: 27px;
+        }
+        .email-wrapper{
+            margin-left: 60px;
+        }
+        .section-contact__text{
+            margin-left: -350px;
+        }
+        .section-contactAdminstitle__text{
+            margin-left: -320px;
+        }
+        .section-telephonecontact__wrapper{
+            background-color: #e7e7e757;
+            border-radius: 10px 10px 10px 10px;
+            max-width: 400px;
+            border-color: #252B42;
+            border-style: solid;
+            max-height: 130px;
+            max-width: 260px;
+            border-width: 2px;
+            margin-left: 15px;
+        }
+        .section-emailcontact__wrapper{
+            max-width: 300px;
+        }
+        .section-telephonecontact__text{
+            font-size: 15px;
+        }
+        .section-iconphone__img{
+            margin-left: -35px;
+        }
+    }
+    @media (max-width: 378px) {
+        .header-wrapper{
+            display: block;
+            justify-content: end;
+        }
+        .header-links__item{
+            font-size: 20px;
+            margin-left: 2px;
+        }
+        .header-links__item-login{
+            margin-left: 127px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+        .header-links__logo{
+            margin-left: 120px;
+        }
+        .imgigmg{
+            opacity: 100%;
+            max-height: 260px;
+            margin-left: 115px;
+        }
+        .section-title__info{
+            max-width: 145px;
+        }
+        .section-button__info{
+            padding-right: 5px;
+            padding-left: 5px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+        .section-card__wrapper{
+            margin-left: 30px;
+        }
+        .stats-wrapper{
+            gap: 40px;
+        }
+        .section-info__text{
+            text-align: center;
+        }
+        .section-titlestudent__heading{
+            margin-left: 70px;
+        }
+        .section-teacher__info{
+            margin-left: 20px;
+            text-align: center;
+        }
+        .section-number__text{
+            font-size: 21px;
+        }
+        .text-wrapper{
+            margin-left: -50px;
+        }
+        .section-information__text{
+            max-width: 160px;
+        }
+        .imgimgimg{
+            margin-left: 140px;
+            max-height: 240px;
+            margin-top: -270px;
+        }
+        .card-wrapper{
+            margin-left: -160px;
+        }
+        .section-teacher__info{
+            max-width: 300px;
+        }
+        .section-button{
+            padding-right: 80px;
+            padding-left: 80px;
+        }
+        .logos-wrapper{
+            margin-left: 40px;
+        }
+        .section-agressment__text{
+            margin-top: 20px;
+        }
+        .section-text__button-invite{
+            padding-bottom: 0px;
+            padding-top: 0px;
+        }
+        .section-text__button-invite-telephone{
+            border-radius: 7px;  
+            border-style: solid;
+            border-color: #494949;
+            color: #252B42;
+            font-weight: 600;
+            border-width: 2px;
+            letter-spacing: 0.6px;
+            width: 475px;
+            height: 49px;
+            text-decoration: none;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 58px;
+            padding-right: 58px;   
+        }
+        .section-inform__text{
+            margin-left: 70px;
+        }
+        input[type="email"]{
+            width: 200px;
+            height: 45px;
+            border-top-left-radius: 16px;
+            border-bottom-left-radius: 16px;
+            border-color: #82B66F;
+            border-width: 2px;
+            border-style: solid;
+            padding-left: 27px;
+        }
+        .email-wrapper{
+            margin-left: 10px;
+        }
+        input[type="submit"]{
+            width: 130px;
+            height: 45px;
+            background-color: #82B66F;
+            border: none;
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
+            color: white;
+            font-size: 16px;
+            margin-left: -5px;
+        }
+        .section-contact__text{
+            margin-left: -460px;
+        }
+        .section-contactAdminstitle__text{
+            margin-left: -430px;
+        }
+        .contacts-contactadmin_wrapper{
+            display: block;
+        }
+        .section-emailcontact__wrapper{
+            max-width: 260px;
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+        .section-telephonecontact__wrapper{
+            margin-left: 50px;
+        } 
+    }
+}
